@@ -1,0 +1,22 @@
+.NavigationContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+}
+
+.NavLinkItem {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.NavLinkItem:hover {
+  background-color: #555;
+}
+
+.active {
+  background-color: #555;
+}

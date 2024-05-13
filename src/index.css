@@ -1,0 +1,36 @@
+a {
+  font-weight: 500;
+  text-decoration: inherit;
+  color: black;
+}
+
+a:active,
+a:hover {
+  color: rgb(17, 0, 255);
+}
+
+body {
+  box-sizing: border-box;
+  font-weight: 500;
+  background-color: #f8f7f8;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: square;
+}
+section {
+  padding: 36px 40px;
+}
